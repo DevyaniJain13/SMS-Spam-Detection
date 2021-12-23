@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0px;
+  background-color: #f4f3f3;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.results {
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+  }
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
